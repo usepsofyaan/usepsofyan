@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -8,24 +9,24 @@ export default function Home() {
         {/* Left: Menu */}
         <ul className="flex gap-8 text-base font-semibold">
           <li>
-            <a href="/" className="hover:text-blue-600 transition-colors">
+            <Link href="/" className="hover:text-blue-600 transition-colors">
               Home
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="/about" className="hover:text-blue-600 transition-colors">
+            <Link href="/about" className="hover:text-blue-600 transition-colors">
               About
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="/projects" className="hover:text-blue-600 transition-colors">
+            <Link href="/projects" className="hover:text-blue-600 transition-colors">
               Projects
-            </a>
+            </Link>
           </li>
         </ul>
         {/* Right: Bar */}
         <div className="flex items-center gap-4">
-          <a href="usepsofyan597@gmail.com" title="Email" className="hover:text-blue-600 transition-colors">
+          <a href="mailto:usepsofyan597@gmail.com" title="Email" className="hover:text-blue-600 transition-colors">
             <span className="sr-only">Email</span>
             <svg width="20" height="20" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
               <path d="M4 4h16v16H4z" stroke="none" />
