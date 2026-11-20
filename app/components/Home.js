@@ -3,7 +3,7 @@ import Footer from "./Footer";
 
 export default function Home() {
   return (
-    <div className="bg-gray-900 text-white font-sans text-black grid grid-rows-[60px_1fr_20px] min-h-screen p-8 pb-20 gap-16 sm:p-20">
+    <div className="bg-white dark:bg-gray-900 text-black dark:text-white font-sans grid grid-rows-[auto_1fr_auto] min-h-screen p-8 pb-20 gap-16 sm:p-20 transition-colors duration-300">
       <Navbar />
       <main className="flex items-center justify-center px-4 sm:px-12">
         <div className="max-w-4xl w-full grid gap-10 sm:grid-cols-2 items-center">
