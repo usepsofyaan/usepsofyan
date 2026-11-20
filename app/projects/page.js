@@ -10,7 +10,7 @@ const projects = [
     description: "Aplikasi media informasi berbasis Android menggunakan React Native dan Firebase.",
     tech: ["React Native", "Firebase", "Cloudinary"],
     category: "android",
-    link: "#",
+    link: "https://drive.google.com/file/d/1tK4PD9gg8GrnkFMXb1o7zNwhPtHtOSjt/view?usp=sharing",
   },
   {
     id: 2,
@@ -18,15 +18,15 @@ const projects = [
     description: "Website undangan pernikahan modern menggunakan Next.js dan Tailwind CSS.",
     tech: ["Next.js", "Tailwind CSS"],
     category: "web",
-    link: "satubiruid.vercel.app",
+    link: "https://satubiruid.vercel.app",
   },
   {
     id: 3,
-    title: "Admin Dashboard",
-    description: "Dashboard admin untuk manajemen data user dan konten.",
-    tech: ["React", "Firestore"],
+    title: "Film Website",
+    description: "Website informasi film menggunakan Next.js dan Supabase.",
+    tech: ["Next.js", "Supabase"],
     category: "web",
-    link: "#",
+    link: "https://movieapphsi2advfe.vercel.app/",
   },
 ];
 
